@@ -29,9 +29,10 @@ const Profile = () => {
             />
           </div>
         </div>
-        <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-white rounded-full border-4 border-green-500 animate-bounce-slow flex items-center justify-center">
-          <span className="text-sm">🥒</span>
-        </div>
+        {/* Container com bounce; imagem com spin lento */}
+        <span className="absolute -bottom-2 -right-2 w-5 h-5 bounce-subtle">
+          <img src="./pickleball-ball.svg" alt="Bola de pickleball" className="w-full h-full spin-slow" />
+        </span>
       </div>
       
       <h2 className="text-2xl font-bold text-slate-800 mb-2">
@@ -42,7 +43,6 @@ const Profile = () => {
         Atleta e instrutor de pickleball, apaixonado pelo esporte. 
         Compartilhando dicas e técnicas para melhorar seu jogo!
       </p>
-      
       
       <div className="grid grid-cols-2 gap-4 mb-6 max-w-sm mx-auto">
         <div className="bg-green-50 rounded-lg p-3">
