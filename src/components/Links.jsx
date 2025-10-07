@@ -9,32 +9,65 @@ const Links = () => {
       description: 'Agende sua aula particular ou mentoria',
       url: 'https://wa.me/5516992144146',
       icon: '🎓',
-      color: 'from-green-500 to-green-600'
+      color: 'from-blue-400 to-green-400'
     },
     {
       id: 3,
       title: 'Instagram',
-      description: 'Fotos e vídeos dos treinos',
+      description: 'Me siga para mais novidades',
       url: 'https://www.instagram.com/fabricioziliotti_pb',
       icon: '📸',
-      color: 'from-blue-500 to-blue-600'
+      color: 'from-green-400 to-blue-400'
     },
     {
-      id: 9,
-      title: 'Contato',
-      description: 'Agende uma conversa',
-      url: 'https://wa.me/5516992144146',
-      icon: '💬',
-      color: 'from-green-500 to-green-600'
+      id: 4,
+      title: 'LetzPlay',
+      description: 'Acompanhe meus jogos e me siga por lá',
+      url: 'https://letzplay.me/fabricioziliotti',
+      icon: '🎯',
+      color: 'from-blue-400 to-green-400'
     },
     {
       id: 10,
-      title: 'Crio páginas como esta',
-      description: 'Fale comigo e faço a sua também',
+      title: 'Desenvolvo páginas como essa',
+      description: 'Fale comigo para criar a sua também',
       url: 'https://wa.me/5516992144146?text=Olá%20Fabrício!%20Quero%20uma%20página%20como%20a%20sua.',
       icon: '💻',
-      color: 'from-green-600 to-blue-600'
-    }
+      color: 'from-green-400 to-blue-400'
+    },
+    // Afiliados
+    // {
+    //   id: 11,
+    //   title: 'Raquete recomendada (afiliado)',
+    //   description: 'Excelente custo-benefício para iniciantes',
+    //   url: 'https://example.com/raquete?ref=fziliotti',
+    //   icon: '🏓',
+    //   color: 'from-green-400 to-blue-400'
+    // },
+    // {
+    //   id: 12,
+    //   title: 'Bolas oficiais (afiliado)',
+    //   description: 'Pack para treinos e jogos',
+    //   url: 'https://example.com/bolas?ref=fziliotti',
+    //   icon: '🟡',
+    //   color: 'from-green-400 to-blue-400'
+    // },
+    // {
+    //   id: 13,
+    //   title: 'Tênis para quadra (afiliado)',
+    //   description: 'Aderência e conforto',
+    //   url: 'https://example.com/tenis?ref=fziliotti',
+    //   icon: '👟',
+    //   color: 'from-green-400 to-blue-400'
+    // },
+    // {
+    //   id: 9,
+    //   title: 'Contato',
+    //   description: 'Agende uma conversa',
+    //   url: 'https://wa.me/5516992144146',
+    //   icon: '💬',
+    //   color: 'from-green-400 to-blue-400'
+    // }
   ]
 
   const handleLinkClick = (link) => {
