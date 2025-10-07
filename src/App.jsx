@@ -6,12 +6,10 @@ import Footer from './components/Footer'
 
 function App() {
   useEffect(() => {
-    // Inicializar Google Analytics apenas se um ID válido for fornecido
-    const gaId = 'G-XXXXXXXXXX' // SUBSTITUA pelo seu ID real do Google Analytics
-    if (gaId && gaId !== 'G-XXXXXXXXXX') {
-      initGA(gaId)
-      trackPageView()
-    }
+    // Inicializar Google Analytics
+    const gaId = 'G-RYSE6VXWSH'
+    initGA(gaId)
+    trackPageView()
   }, [])
 
   return (
