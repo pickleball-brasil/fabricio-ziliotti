@@ -26,6 +26,14 @@ const Links = () => {
       url: 'https://wa.me/5516992144146',
       icon: '💬',
       color: 'from-green-500 to-green-600'
+    },
+    {
+      id: 10,
+      title: 'Crio páginas como esta',
+      description: 'Fale comigo e faço a sua também',
+      url: 'https://wa.me/5516992144146?text=Olá%20Fabrício!%20Quero%20uma%20página%20como%20a%20sua.',
+      icon: '💻',
+      color: 'from-green-600 to-blue-600'
     }
   ]
 
