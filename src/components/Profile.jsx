@@ -36,7 +36,7 @@ const Profile = () => {
     months:
       'Iniciei em julho de 2024 no clube castelinho em Franca-SP. Já gostava de jogar tênis de mesa desde criança e me apaixonei assim que conheci o esporte.',
     cities:
-      'Já joguei pickleball e fiz amizades nas cidades: Araraquara, Araras, Franca, Limeira, Taquaritinga e Natal.',
+      'Já joguei pickleball e fiz amizades nas cidades: Araraquara, Araras, Franca, Limeira, Ribeirão Preto, Taquaritinga e Natal.',
     tournaments:
       'Disputei torneios nas cidades Araraquara, Araras, Franca, Limeira, Taquaritinga. Sendo medalhista em jogos de duplas masculinas, duplas mistas e simples.',
     medals:
@@ -146,7 +146,7 @@ const Profile = () => {
             </div>
             {openTitle === 'Cidades conhecidas' ? (
               <ul className="list-disc list-inside text-slate-700 space-y-1 mb-4 text-sm">
-                {['Araraquara', 'Araras', 'Franca', 'Limeira', 'Taquaritinga', 'Natal'].map(city => (
+                {['Araraquara', 'Araras', 'Franca', 'Limeira', 'Taquaritinga', 'Ribeirão Preto', 'Natal'].map(city => (
                   <li key={city}>{city}</li>
                 ))}
               </ul>
