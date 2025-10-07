@@ -19,7 +19,7 @@ const Profile = () => {
         <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-green-400 to-blue-400 p-1">
           <div className="w-full h-full rounded-full overflow-hidden">
             <img 
-              src="/fabricio-pickleball.webp?v=1" 
+              src="./fabricio-pickleball.webp" 
               alt="Fabrício Ziliotti" 
               className="w-full h-full object-cover" 
               style={{
