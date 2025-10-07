@@ -29,8 +29,8 @@ const Profile = () => {
             />
           </div>
         </div>
-        <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-yellow-400 rounded-full border-4 border-white animate-bounce-slow flex items-center justify-center">
-          <span className="text-sm">🏆</span>
+        <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-white rounded-full border-4 border-green-500 animate-bounce-slow flex items-center justify-center">
+          <span className="text-sm">🥒</span>
         </div>
       </div>
       
