@@ -25,8 +25,8 @@ function App() {
         <div className="absolute top-1/3 right-1/4 w-[24rem] h-[24rem] rounded-full bg-green-200/25 blur-3xl"></div>
       </div>
 
-      <main className="container mx-auto px-4 py-8" role="main">
-        <div className="max-w-md mx-auto space-y-8">
+      <main className="container mx-auto px-4 py-6" role="main">
+        <div className="max-w-md mx-auto space-y-5">
           <Profile />
           <Links />
         </div>

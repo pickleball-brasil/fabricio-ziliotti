@@ -9,7 +9,28 @@ const Links = () => {
       description: 'Agende sua aula particular ou mentoria',
       url: 'https://wa.me/5516992144146',
       icon: '🎓',
-      color: 'from-blue-400 to-green-400'
+      bgColor: 'bg-blue-500',
+      hoverColor: 'group-hover:bg-blue-600'
+    },
+    {
+      id: 14,
+      title: 'Material de Estudo - Picklebook',
+      description: 'Projeto em andamento.',
+      url: 'https://pickleball-brasil.github.io/dicas-e-temas-do-esporte/',
+      icon: '📚',
+      bgColor: 'bg-green-500',
+      hoverColor: 'group-hover:bg-green-600'
+    },
+    {
+      id: 15,
+      title: 'Hyperlight - Raquetes (Cupom FFZ15)',
+      description: 'Parceria exclusiva com 15% de desconto',
+      url: 'https://hyperlight.gg/raquete-de-pickleball/',
+      icon: '🏓',
+      bgColor: 'bg-blue-500',
+      hoverColor: 'group-hover:bg-blue-600',
+      isLogo: true,
+      logoSrc: './hyper-logo.webp'
     },
     {
       id: 3,
@@ -17,7 +38,8 @@ const Links = () => {
       description: 'Me siga para mais novidades',
       url: 'https://www.instagram.com/fabricioziliotti_pb',
       icon: '📸',
-      color: 'from-green-400 to-blue-400'
+      bgColor: 'bg-green-500',
+      hoverColor: 'group-hover:bg-green-600'
     },
     {
       id: 4,
@@ -25,16 +47,17 @@ const Links = () => {
       description: 'Acompanhe meus jogos e me siga por lá',
       url: 'https://letzplay.me/fabricioziliotti',
       icon: '🎯',
-      color: 'from-blue-400 to-green-400'
+      bgColor: 'bg-blue-500',
+      hoverColor: 'group-hover:bg-blue-600'
     },
-    {
-      id: 10,
-      title: 'Desenvolvo páginas como essa',
-      description: 'Fale comigo para criar a sua também',
-      url: 'https://wa.me/5516992144146?text=Olá%20Fabrício!%20Quero%20uma%20página%20como%20a%20sua.',
-      icon: '💻',
-      color: 'from-green-400 to-blue-400'
-    },
+    // {
+    //   id: 10,
+    //   title: 'Desenvolvo páginas como essa',
+    //   description: 'Fale comigo para criar a sua também',
+    //   url: 'https://wa.me/5516992144146?text=Olá%20Fabrício!%20Quero%20uma%20página%20como%20a%20sua.',
+    //   icon: '💻',
+    //   color: 'from-green-400 to-blue-400'
+    // },
     // Afiliados
     // {
     //   id: 11,
@@ -75,7 +98,7 @@ const Links = () => {
   }
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-3">
       {links.map((link, index) => (
         <a
           key={link.id}
@@ -88,9 +111,17 @@ const Links = () => {
           aria-label={`${link.title} — ${link.description}`}
         >
           <div className="link-card group">
-            <div className="flex items-center space-x-4">
-              <div className={`w-12 h-12 rounded-xl bg-gradient-to-r ${link.color} flex items-center justify-center text-white text-xl group-hover:scale-110 transition-transform duration-300`}>
-                {link.icon}
+            <div className="flex items-center space-x-3">
+              <div className={`w-11 h-11 rounded-xl ${link.bgColor} ${link.hoverColor} flex items-center justify-center text-xl shadow-sm group-hover:scale-110 group-hover:shadow-md transition-all duration-300 ${link.isLogo ? 'p-2' : ''}`}>
+                {link.isLogo ? (
+                  <img 
+                    src={link.logoSrc} 
+                    alt={`${link.title} logo`} 
+                    className="w-full h-full object-contain"
+                  />
+                ) : (
+                  link.icon
+                )}
               </div>
               <div className="flex-1 min-w-0">
                 <h3 className="font-semibold text-slate-800 group-hover:text-slate-900 transition-colors">
