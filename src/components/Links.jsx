@@ -14,8 +14,8 @@ const Links = () => {
     },
     {
       id: 14,
-      title: 'Material de Estudo - Picklebook',
-      description: 'Projeto em andamento.',
+      title: 'Estude o Pickleball',
+      description: 'Materiais de estudo e dicas',
       url: 'https://pickleball-brasil.github.io/dicas-e-temas-do-esporte/',
       icon: '📚',
       bgColor: 'bg-green-500',

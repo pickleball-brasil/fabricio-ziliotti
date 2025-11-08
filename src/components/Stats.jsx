@@ -62,7 +62,7 @@ const Stats = () => {
     },
     {
       id: 3,
-      value: 9,
+      value: 10,
       label: 'Torneios Disputados',
       color: 'blue',
       message: messages.tournaments,
@@ -70,7 +70,7 @@ const Stats = () => {
     },
     {
       id: 4,
-      value: 8,
+      value: 9,
       label: 'Medalhas Conquistadas',
       color: 'green',
       message: messages.medals,
