@@ -23,8 +23,8 @@ const Links = () => {
     },
     {
       id: 15,
-      title: 'Hyperlight - Raquetes (Cupom FFZ15)',
-      description: 'Parceria exclusiva com 15% de desconto',
+      title: 'Hyperlight Pickleball',
+      description: 'Raquetes de alta qualidade',
       url: 'https://hyperlightpickleball.com.br/product-category/raquetes/',
       icon: '🏓',
       bgColor: 'bg-blue-500',
