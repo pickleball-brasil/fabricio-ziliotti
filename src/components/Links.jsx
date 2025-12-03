@@ -14,24 +14,24 @@ const Links = () => {
     },
     {
       id: 14,
-      title: 'Estude o Pickleball',
-      description: 'Materiais de estudo e dicas',
+      title: 'Estude o Pickleball no meu site',
+      description: 'Assuntos separados por categorias e temas',
       url: 'https://pickleball-brasil.github.io/dicas-e-temas-do-esporte/',
       icon: '📚',
       bgColor: 'bg-green-500',
       hoverColor: 'group-hover:bg-green-600'
     },
-    {
-      id: 15,
-      title: 'Hyperlight Pickleball',
-      description: 'Raquetes de alta qualidade',
-      url: 'https://hyperlightpickleball.com.br/product-category/raquetes/',
-      icon: '🏓',
-      bgColor: 'bg-blue-500',
-      hoverColor: 'group-hover:bg-blue-600',
-      isLogo: true,
-      logoSrc: './hyper-logo.webp'
-    },
+    // {
+    //   id: 15,
+    //   title: 'Hyperlight Pickleball',
+    //   description: 'Raquetes de alta qualidade',
+    //   url: 'https://hyperlightpickleball.com.br/product-category/raquetes/',
+    //   icon: '🏓',
+    //   bgColor: 'bg-blue-500',
+    //   hoverColor: 'group-hover:bg-blue-600',
+    //   isLogo: true,
+    //   logoSrc: './hyper-logo.webp'
+    // },
     {
       id: 3,
       title: 'Instagram',
@@ -114,9 +114,9 @@ const Links = () => {
             <div className="flex items-center space-x-3">
               <div className={`w-11 h-11 rounded-xl ${link.bgColor} ${link.hoverColor} flex items-center justify-center text-xl shadow-sm group-hover:scale-110 group-hover:shadow-md transition-all duration-300 ${link.isLogo ? 'p-2' : ''}`}>
                 {link.isLogo ? (
-                  <img 
-                    src={link.logoSrc} 
-                    alt={`${link.title} logo`} 
+                  <img
+                    src={link.logoSrc}
+                    alt={`${link.title} logo`}
                     className="w-full h-full object-contain"
                   />
                 ) : (

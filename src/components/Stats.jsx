@@ -40,7 +40,7 @@ const Stats = () => {
     tournaments:
       'Disputei torneios nas cidades Araraquara, Araras, Franca, Limeira e Taquaritinga. Sendo medalhista em jogos de duplas masculinas, duplas mistas e simples.',
     medals:
-      'Até agora foram 9 medalhas conquistadas em diferentes categorias.'
+      'Até agora foram 11 medalhas conquistadas em diferentes categorias.'
   }
 
   const stats = [
@@ -70,7 +70,7 @@ const Stats = () => {
     },
     {
       id: 4,
-      value: 9,
+      value: 11,
       label: 'Medalhas Conquistadas',
       color: 'green',
       message: messages.medals,
